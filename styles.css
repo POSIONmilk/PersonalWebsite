@@ -1,0 +1,61 @@
+header {
+    background-color: rgb(45, 48, 54); 
+    color: white;            
+    text-align: center;      
+    margin: 0;
+    padding: 1px;        
+    font-size: 1.5em;       
+}
+
+header a{
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 5px;
+}
+
+header a:hover{
+    background-color:darkblue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+section{
+    text-align: left;
+    margin: auto;
+    padding-left: 20px;
+    width: 500px;
+    background-color: lightblue;
+    border: 2px solid white; 
+    margin-bottom: 20px;
+
+}
+#Contact{
+    height:  220px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(45, 48, 54);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+section h2{
+    text-align: center;
+
+}
+#Message{
+    resize: both;
+}
